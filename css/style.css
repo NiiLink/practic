@@ -1,0 +1,32 @@
+.container {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+h1, h2, h3 {
+    font-family: sans-serif;
+    margin-top: 1.5em;
+}
+
+table {
+    border: solid 1px #222;
+    border-collapse: collapse;
+ }
+
+ th, td {
+    border: solid 1px #222;
+ }
+
+figure {
+    float: right;
+    margin: 10px;
+ }
+
+ figcaption {
+    font-style: italic;
+}
