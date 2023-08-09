@@ -4,29 +4,41 @@
     margin-right: auto;
 }
 
-h1 {
+.header {
     font-size: 32px;
-}
-
-h1, h2, h3 {
     font-family: sans-serif;
     margin-top: 1.5em;
 }
 
-table {
+.contents {
+    font-family: sans-serif;
+    margin-top: 1.5em;
+}
+
+.table {
     border: solid 1px #222;
-    border-collapse: collapse;
+    text-align: center;
  }
 
  th, td {
     border: solid 1px #222;
  }
 
-figure {
+ .picture {
     float: right;
     margin: 10px;
+    width: 300px;
  }
 
- figcaption {
+ .caption {
     font-style: italic;
+    caption-side: bottom;
+ }
+
+.signature {
+    font-style: italic;
+}
+
+.footnote {
+    padding: 0px 50px
 }
