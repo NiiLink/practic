@@ -1,0 +1,153 @@
+.container { 
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 100%;
+    max-width: 1219px;
+    padding: 0 55px;
+    margin: 0 auto;
+}
+
+.header {
+    width: 100%;
+    background: #007765;
+    padding: 15px 0;
+    position: fixed;
+    top: 0;
+    box-sizing: border-box;
+}
+
+.img-header {
+    width: 184px;
+    float: left;
+    margin: 15px 0;
+}
+
+.header_link {
+    color: #ffffff;
+    font-size: 24px;
+    display: inline-block;
+    padding: 0 5px;
+}
+
+.header_link a:hover {
+    color: #012e27be;
+}
+
+.header_link a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.navbar_link {
+    float: right;
+    margin: 20px 0;
+}
+
+.clear {
+    clear: both;
+  }
+
+.Jumbotron {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 120px 0;
+    background: url(../image1.png) 0 0 / cover no-repeat;
+    color: #ffffff;
+    text-align: center;
+}
+
+.Jumbotron h1 {
+    font-weight: 500;
+    margin-top: 160px;
+    font-size: 72px;
+}
+
+#problem {
+    font-size: 32px;
+    padding: 50px 0;
+}
+
+#problem h2 {
+    font-size: 64px;
+    text-align: center;
+    color: #007765;
+}
+
+.hero {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 120px 0;
+    background: url(../image_2.png) 0 0 / cover no-repeat;
+    font-size: 48px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.hero p {
+    font-style: italic;
+    font-weight: 500;
+    margin-top: 50px;
+}
+
+#ppc {
+    font-size: 32px;
+    margin-bottom: 70px;
+}
+
+#ppc h2 {
+    font-size: 64px;
+    text-align: center;
+    color: #007765;
+    margin: 40px 20px;
+}
+
+#ppc img {
+    width: 115px;
+    float: left;
+    margin: 10px 20px;
+    font-weight: 500;
+}
+
+
+#team {
+    background: #eeeeee;
+    padding: 50px;
+}
+#team  h2 {
+    font-size: 64px;
+    text-align: center;
+    color: #007765;
+}
+
+.team_card {
+    margin: 16px 15px;
+}
+
+.team_card img {
+    width: 168px;
+    margin: 20px 75px;
+}
+ 
+.team_card h3 {
+    font-size: 24px;
+    color: #007765;
+    text-align: center;
+    font-weight: bold;
+}
+
+.signature {
+    font-style: italic;
+    font-size: 18px;
+    text-align: center;
+}
+
+.footer {
+    background: #333333;
+    color: #ffffff;
+    bottom: 0;
+}
+
+.footer_text {
+    font-size: 18px;
+    padding: 40px 300px;
+    text-align: center;
+}
